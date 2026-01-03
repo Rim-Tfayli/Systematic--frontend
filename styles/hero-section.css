@@ -72,7 +72,7 @@ nav a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    background: url('../images/background1.PNG');
+    background: url('../images/background1.webp');
     background-size: cover;
     overflow: hidden;
 }
