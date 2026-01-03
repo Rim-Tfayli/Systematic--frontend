@@ -1,0 +1,121 @@
+
+.clients-section {
+  background: linear-gradient(
+        rgba(0, 0, 0, 0.8), 
+        rgba(0, 0, 0, 0.8)),
+        url('../images/hero-back.png');
+  background-size: cover;
+  background-position: center;
+  color: #00ff88;
+  padding: 80px 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Overlay container */
+.clients-overlay {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+/* Logo + robot layout */
+.clients-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+/* Left and right logo columns */
+.clients-left,
+.clients-right {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.clients-right {
+  gap: 100px;
+}
+
+/* Individual logos */
+.logo {
+  max-width: 140px;
+  height: auto;
+  margin: 0 auto;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+/* Robot contaner */
+.robot-container {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+
+/* Robot images */
+.robot {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 250px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.robot.right {
+  opacity: 1;
+}
+/* Active states controlled by JS */
+
+.clients-section.left-active .robot.left{
+  opacity: 1;
+}
+.clients-section.left-active .robot.right {
+  opacity: 0;
+}
+
+
+.clients-section.right-active .robot.right {
+  opacity: 1;
+}
+.clients-section.right-active .robot.left {
+  opacity: 0;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .clients-logos {
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .clients-left,
+  .clients-right {
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    flex-wrap: wrap; /* allow logos to wrap if needed */
+  }
+
+  .logo {
+    max-width: 100px; /* scale down for mobile */
+    height: auto;
+  }
+
+  .robot-container {
+    display: none;
+  }
+
+}
+

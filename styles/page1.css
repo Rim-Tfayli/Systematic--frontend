@@ -1,0 +1,27 @@
+.page1 {
+    padding: 80px 40px;
+    background-color: #121212;
+    text-align: center;
+}
+.page1-img {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.page1-img img {
+    width: 480px;
+    max-width: 100%;
+    border-radius: 12px;
+    border-radius: 75px 0 0 0;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+}
+
+.page1-img img:hover {
+    transform: scale(1.03);
+}
+.proj2{
+    transform: translateY(50px);
+}
