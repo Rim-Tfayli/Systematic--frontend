@@ -95,8 +95,13 @@
         width: 100%;
         max-width: 360px;
     }
-    .verification-logos {
-        flex-wrap: wrap;
-        width: 40%;
+    .verification{
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        justify-content: center;
+    }
+    .verification-logos img{
+        width: 50%;
     }
 }
