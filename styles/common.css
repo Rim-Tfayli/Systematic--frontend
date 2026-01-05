@@ -59,6 +59,9 @@ button:hover {
     max-width: 900px;
     padding: 0;
     }
+    *{
+        box-sizing: border-box;
+    }
     p{
         font-size: 14px !important;
         max-width: 85%;
