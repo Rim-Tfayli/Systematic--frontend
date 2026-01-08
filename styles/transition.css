@@ -8,3 +8,16 @@
   background: rgb(255, 255, 255); 
   border-radius: 10px;
 }
+
+/*
+Source - https://stackoverflow.com/a
+Posted by myfunkyside, modified by community. See post 'Timeline' for change history
+Retrieved 2026-01-08, License - CC BY-SA 3.0
+*/
+
+.fade {
+  margin: 50px;
+  padding: 50px;
+  background-color: lightgreen;
+  opacity: 1;
+}
