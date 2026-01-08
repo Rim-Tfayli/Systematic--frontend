@@ -25,7 +25,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 //hero -> page1
 let tl = gsap.timeline();
-tl.to(".hero-content", { opacity: 0, scale: 0.9, duration: 1 });
+tl.to(".hero-content", { opacity: 0, scale: 0.9, duration: 12 });
 tl.from(".page1-content", { yPercent: 80, opacity: 0, scale: 0.9, duration: 12 }, "<");
 
 ScrollTrigger.create({
@@ -54,8 +54,8 @@ ScrollTrigger.create({
 
 //skills -> about
 let t3 = gsap.timeline();
-t3.from(".whoWeAre-content", { x: -100, opacity: 0, duration: 1 });
-t3.to(".skills-content", { yPercent: 50, opacity: 0, duration:4, scale:0.5 });
+t3.from(".whoWeAre-content", { x: -100, opacity: 0, duration: 8 });
+t3.to(".skills-content", { yPercent: 50, opacity: 0, duration:6, scale:0.5 });
 
 t3.from(".whoWeAre-image", { x: 100, opacity: 0, duration: 12 }, "<");
 
