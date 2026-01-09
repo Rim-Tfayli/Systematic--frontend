@@ -181,7 +181,6 @@ nav a:hover {
   .hero-section .logo {
     display: block;
     margin-bottom: 10px;
-    transform: translateX(-80%);
   }
   .search-bar {
     justify-content: center;
