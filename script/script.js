@@ -15,9 +15,11 @@ document.addEventListener('mousemove', (e) =>{
 
 const hamburger = document.getElementById('hamburger');
 const nav = document.getElementById('nav');
+const heroSection = document.querySelector('.hero-section');
 
 hamburger.addEventListener('click', () => {
     nav.classList.toggle('active');
+    heroSection.classList.toggle('adding_padding');
 });
 
 

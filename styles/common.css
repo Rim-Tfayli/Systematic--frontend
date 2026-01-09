@@ -50,7 +50,7 @@ button:hover {
   transform: translateY(-2px);
 }
 @media (max-width: 900px) {
-    section, .clients-overlay, .clients-logos, .hero-content, .skills-content, .whoWeAre-content, .footer-overlay, .testimonials-content, .client-card, .verification, .verification-logos{
+    section, .clients-overlay, .clients-logos, .hero-content, .skills-content, .whoWeAre-content, .footer-overlay, .testimonials-content, .client-card, .verification, .verification-logos, header, nav{
     display: flex;
     flex-direction: column;
     justify-content: center;
