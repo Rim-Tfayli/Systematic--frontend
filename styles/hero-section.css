@@ -178,7 +178,7 @@ nav a:hover {
     font-size: 14px;
     padding: 12px 20px;
   }
-  .logo {
+  .hero-section .logo {
     display: block;
     margin-bottom: 10px;
     transform: translateX(-80%);
