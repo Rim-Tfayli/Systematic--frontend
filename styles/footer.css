@@ -78,5 +78,8 @@
   }
   .contact-block p{
     padding: 0px;
+    margin-top: 2px;
+    margin-bottom: 0;
   }
+  
 }
