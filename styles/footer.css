@@ -1,7 +1,7 @@
 .footer {
     background: url(../images/footer.webp);
-    padding: 100px 40px;
-color: #ffffff;
+    padding: 30px 20px;
+    color: #ffffff;
 }
 
 .footer-overlay {
@@ -12,31 +12,43 @@ color: #ffffff;
 /* Contact Blocks */
 .footer-contact {
     display: flex;
-    gap: 60px;
+    gap: 30px;
     flex-wrap: wrap;
 }
 
 .contact-block {
-    padding: 30px 25px;
+    padding: 20px 15px;
     width: 260px;
     text-align: left;
 }
 
 .contact-block h3 {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
-    margin-bottom: 15px;
+    margin-bottom: 18px;
+    margin-top: 16px;
 }
 
-.contact-block p {
+.footer-overlay p {
     font-size: 15px;
-    margin: 6px 0;
+    line-height: 1.6;
+    padding-bottom: 15px;
+}
+.footer-overlay h1{
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+.footer-overlay button{
+  padding: 12px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 3px;
 }
 
 /* Responsive */
 @media (max-width: 900px) {
   .footer {
-    padding: 60px 20px;
+    padding: 30px 10px;
   }
 
   .footer h1 {
@@ -44,23 +56,27 @@ color: #ffffff;
   }
 
   .footer p {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.6;
   }
 
   .footer-cta {
     font-size: 14px;
-    padding: 12px 20px;
+    padding: 6px 14px;
   }
 
   .footer-contact {
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 15px;
   }
 
   .contact-block {
     width: 100%;
+    padding: 5px;
     max-width: 360px;
+  }
+  .contact-block p{
+    padding: 0px;
   }
 }
